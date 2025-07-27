@@ -80,7 +80,9 @@ if 'era_actual_idx' not in st.session_state:
 # --- 3. Interfaz de la Aplicación ---
 
 st.title("🧠 Evolución Cerebral: Un Simulador Mediático")
-st.image("Flux_Dev_Portada_del_taller_Alquimia_del_cerebro_y_el_lenguaje_0.jpg", caption="De la escritura a la IA, cada medio nos ha remodelado.")
+
+# CORRECCIÓN: Usando el nombre de archivo correcto para la portada
+st.image("portada_evolucion.jpg", caption="De la escritura a la IA, cada medio nos ha remodelado.")
 
 st.markdown("---")
 
